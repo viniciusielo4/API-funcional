@@ -12,4 +12,5 @@ O formulário inclui:
 Os campos estão centralizados na página, e o layout é responsivo, garantindo compatibilidade com dispositivos móveis e desktops.
 
 ## 📂 Estrutura do Projeto
+![image](https://github.com/user-attachments/assets/63aa80b7-7cd3-450e-ab7d-223173cc7d43)
 
