@@ -1,0 +1,72 @@
+/* Reset básico */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4A90E2, #50E3C2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Centraliza a div no centro */
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Centraliza campos dentro do formulário */
+form {
+    display: flex;
+    flex-direction: column; /* Alinha elementos em coluna */
+    gap: 15px; /* Espaço entre os elementos */
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Placeholder em branco */
+input::placeholder {
+    color: #ccc;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+/* Botão */
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #4A90E2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #357ABD;
+}
+
+/* Responsividade */
+@media (max-width: 400px) {
+    .login-container {
+        width: 90%;
+    }
+}
